@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Descendant Selectors</title>
+<style>
+/* All descendant selectors are separated by a
+space not by a comma as in CSS grouping */
+/* two selector example */
+  p i {
+    background: tan;
+  }
+
+/* three selector example */
+  p i strong {
+    background: yellow;
+  }
+</style>
+</head>
+<body>
+<h2>Descendant Selectors</h2>
+<p>
+Regular document text not affected by style sheet.
+<br>
+<i>
+Document text affected by style sheet,
+because of the &lt;i&gt; tags inside the &lt;p&gt; tags
+</i>
+</p>
+<p>More document text not affected by style sheet, although
+contained between &lt;p&gt; tags</p>
+<div>
+<i>More document text not affected by style sheet, although
+contained between &lt;i&gt; tags</i>
+</div>
+<p><i><strong>
+Document text affected by style sheet,
+because of the &lt;p&gt;&lt;i&gt;&lt;strong&gt; tags surrounding the text
+</strong></i></p>
+
+</body>
+</html>
