@@ -1,0 +1,20 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width:50%;
+}
+  
+th{
+  text-align: left;
+  background-color: gray;
+  color: white;
+  padding: 0.2em;
+}
+
+td {
+  padding: 0.2em;
+}
+
+

@@ -1,0 +1,20 @@
+body {
+ font: 80%/1.5 arial, helvetica, sans-serif;
+}
+	
+table {
+ border: 1px solid #668;
+ border-collapse: collapse;
+}
+	
+td {
+ padding: 0.1em 2em;
+}
+ 
+	
+td:nth-of-type(even){
+ background-color: #ddf;
+}
+
+
+

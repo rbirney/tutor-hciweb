@@ -1,0 +1,45 @@
+table {
+ border:solid navy 2px;
+ border-collapse:collapse;
+ width:70%;
+ margin:3% auto;
+ color:#039;
+}
+
+th {
+ background-color:blue;
+ color:white;
+}
+
+thead tr:first-of-type {
+ border:solid navy 2px;
+ padding:.5em 0;
+}
+
+tbody tr:nth-of-type(odd) {
+ background-color: #ddd;
+}
+
+tbody tr:nth-of-type(even) {
+ background-color: #f3f3f3;
+}
+
+td {
+ border:solid navy 2px;
+ text-align:center;
+}
+
+td:first-child {
+ font-weight:bold;
+}
+
+tbody tr:hover {
+ cursor:pointer;
+ background-color: gray;
+ color: white;
+}
+
+caption { 
+ caption-side:bottom; 
+ text-align:left;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<title>Nested Table Example</title>
+<style>
+table, th,td {
+   border:1px solid black;
+   width:20%;
+}
+td, th {
+   padding:.3em;
+}
+
+table  {
+  border-collapse:collapse;
+}
+
+caption {
+  caption-side:bottom;
+  font-weight:bold;
+}
+
+td {
+   text-align:center;
+}
+
+table table {
+   width:100%
+ }
+
+</style>
+</head>
+<body>
+<table>
+<caption>Ratings</caption>
+<tr><th>Month</th><th>Date</th><th>Rating</th></tr>
+     <tr>
+            <td>August</td>
+            <td>15</td>
+            <td>3.5/5</td>
+     </tr>
+     <tr>
+            <td>August</td>
+            <td>20</td>
+            <td>4.5/5</td>
+     </tr>
+     <tr>
+            <td>August</td>
+            <td>24</td>
+            <td>
+              <table>
+               <tr><th>Tess</th><td>4/5</td></tr>
+               <tr><th>Jim</th><td>3/5</td></tr>
+              </table>
+            </td>
+     </tr>
+  </table>
