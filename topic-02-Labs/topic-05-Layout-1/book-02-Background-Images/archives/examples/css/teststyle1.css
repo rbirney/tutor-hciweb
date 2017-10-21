@@ -1,0 +1,26 @@
+body, html {margin:0;padding:0;width:100%;height:100%;} 
+
+body {
+ background-color:gray;
+}
+
+#mainContainer { 
+ margin:2%;
+ background-color:white;
+} 
+
+header, section,  footer {
+ padding:2%;
+}
+
+header { 
+ border:2px solid red; 
+} 
+
+section { 
+ border:2px solid blue; 
+} 
+
+footer { 
+ border:2px solid green; 
+}

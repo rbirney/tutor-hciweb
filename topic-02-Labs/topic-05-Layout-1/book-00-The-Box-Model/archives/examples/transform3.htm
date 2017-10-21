@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transitions</title>
+  <style>
+  .element {
+    width: 100px;
+    background: red;
+    height: 100px;
+    position:absolute;
+    left:300px;
+    top:300px;
+    transition: ease-in-out 3s;
+  }
+
+  .element:hover {
+    transform: translate(150px,0);
+}
+  </style>
+</head>
+
+<body>
+<div class="element"></div>
+</body>
+</html>

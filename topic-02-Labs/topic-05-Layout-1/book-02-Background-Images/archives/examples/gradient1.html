@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background: linear-gradient(red, yellow); 
+}
+#grad2 {
+    height: 200px;
+    background-color: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, blue, green); 
+}
+#grad3 {
+    height: 200px;
+    background-color: green; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet); 
+}
+</style>
+</head>
+<body>
+
+<h3>Linear Gradient - Top to Bottom</h3>
+<p>This linear gradient starts at the top. It starts red, transitioning to yellow.</p>
+
+<div id="grad1"></div>
+
+<h3>Linear Gradient - Left to Right</h3>
+<p>This linear gradient starts at the left and goes to the right. It starts blue, transitioning to green.</p>
+
+<div id="grad2"></div>
+
+<h3>Linear Gradient - Top left to Bottom right</h3>
+<p>This linear gradient starts at the top left and goes towards the bottom right. It has multiple colour stops: red, orange, yellow, green, blue, indigo, and violet - all the colours of the rainbow!</p>
+
+<div id="grad3"></div>
+
+</body>
+</html>

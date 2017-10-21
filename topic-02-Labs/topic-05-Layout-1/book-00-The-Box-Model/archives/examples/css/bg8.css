@@ -1,0 +1,31 @@
+    #mydiv {
+      border:1px solid black;
+      background-image:url('../images/smiley.gif');
+      background-repeat:no-repeat;
+      background-size:100% 100%;
+      width:200px;
+      height:200px;
+      float:left;
+    }
+
+    #mydiv2 {
+      border:1px solid black;
+      background-image:url('../images/smiley.gif');
+      background-repeat:no-repeat;
+      background-size:100% 100%;
+      width:400px;
+      height:300px;
+      margin-left:5%;
+      float:left;
+    }
+
+        #mydiv3 {
+	      border:1px solid black;
+	      background-image:url('../images/smiley.gif');
+	      background-repeat:no-repeat;
+	      background-size:100% 100%;
+	      width:500px;
+	      height:800px;
+	      margin-left:700px;
+    }
+>

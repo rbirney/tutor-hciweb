@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Positioning example</title>
+<link rel ="stylesheet" href="css/columnb.css">
+
+</style></head><body>
+<nav>
+<a href="http://www.wit.ie" target="blank">Waterford IT</a>
+<a href="http://www.w3schools.com/css/" target="blank">CSS Tutorial</a>
+</nav>
+<aside>
+As well as making this div a class 'sideLink', I have also styled it with <code>top: 200px;</code> so that it appears
+under the other div of class 'sideLink'.
+</aside>
+<aside class="sideLinkB">
+To see why this positioning technique is so useful, <a href="columnsa.htm">click here</a> to swap over the three right and left declarations in this example.
+</aside>
+<section>
+<h1>Positioning demo: Try resizing the window. This main part should rearrange itself to suit the new window size (until you
+make it too narrow).</h1>
+<pre>
+<code>
+nav {
+	position: absolute;
+	right: 30px;
+	top: 50px;
+	width: 120px;
+	padding: 10px;
+	border: 2px solid #000077;
+}
+
+aside {
+	position: absolute;
+	right: 30px;
+	top: 200px;
+	width: 120px;
+	padding: 10px;
+	border: 2px solid #000077;
+
+}
+aside.sideLinkB {
+	position: absolute;
+	right: 30px;
+	top: 400px;
+	width: 120px;
+	padding: 10px;
+	border: 2px solid #000077;
+}
+
+
+section {
+	position: absolute;
+	right: 200px;
+	top: 20px;
+	left: 30px;
+	padding: 10px;
+	border: 2px solid #007700;
+}
+
+
+
+nav a, aside.sideLinkB a {
+	display: block;
+	background-color: #bbbbff;
+	margin-bottom:2px;
+}
+
+nav  a:hover, aside.sideLinkB  a:hover {
+	background-color: #bbffff;
+}
+</code></pre>
+</section>
+</body></html>

@@ -1,0 +1,9 @@
+    .sunset {
+      border:1px solid black;
+      color:white;
+      font-weight:bold;
+      font-size:300%;
+      background:black url(../images/sunset.jpg) no-repeat;
+      width:15em;
+      height:4em;
+    }

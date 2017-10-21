@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transitions</title>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+   $("#element1").addClass("load");
+   $("#element2").addClass("load");
+   $("#element3").addClass("load");
+   $("#element4").addClass("load");
+   $("#element5").addClass("load");
+})
+</script>
+
+  <style>
+
+  #element1 {
+    width: 120px;
+    background: red;
+    height: 80px;
+    transition: width 5s;
+  }
+
+  #element1.load {
+    width: 250px;
+
+  }
+
+    #element2 {
+      width: 120px;
+      background: blue;
+      height: 80px;
+      transition:  width 5s linear;
+    }
+
+    #element2.load {
+      width: 250px;
+  }
+      #element3 {
+        width: 120px;
+        background: green;
+        height: 80px;
+        transition: width 5s ease-in;
+      }
+
+      #element3.load {
+        width: 250px;
+    }
+
+      #element4 {
+        width: 120px;
+        background: yellow;
+        height:80px;
+        transition:  width 5s ease-out;
+      }
+
+      #element4.load {
+        width: 250px;
+    }
+
+      #element5 {
+        width: 120px;
+        background: pink;
+        height: 80px;
+        transition:  width 5s ease-in-out;
+      }
+
+      #element5.load {
+        width: 250px;
+    }
+  </style>
+</head>
+
+<body>
+<div id="element1">Ease</div>
+<br><br>
+<div id="element2">Linear</div>
+<br><br>
+<div id="element3">Ease-In</div>
+<br><br>
+<div id="element4">Ease-Out</div>
+<br><br>
+<div id="element5">Ease-In-Out</div>
+
+</body>
+</html>

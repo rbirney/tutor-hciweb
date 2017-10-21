@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Inline Styling</title>
+<style type="text/css">
+ nav ul li{
+	display:inline;
+	background-color:#eee;
+	border:1px solid;
+	border-color:#f3f3f3 #bbb #bbb #f3f3f3;
+	padding:.5em 0;
+ }
+
+ a {
+    display:inline-block;
+    text-align:center;
+    font-weight:bold;
+    padding:.5em 0;
+	width:8em;
+ }
+
+ a:link, a:visited {
+    color:blue;
+    text-decoration:none;
+ }
+
+ a:hover  {
+    text-decoration:underline;
+    color:black;
+    background-color:lightgray;
+ }
+
+ a:active {
+  color:yellow;
+}
+</style>
+</head>
+
+<body>
+<h1>An unordered list (with some inline styling)</h1>
+<nav>
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About us</a></li>
+	<li><a href="#">Products</a></li>
+	<li><a href="#">FAQs</a></li>
+	<li><a href="#">Contact us</a></li>
+</ul>
+</nav>
+</body>
+</html>

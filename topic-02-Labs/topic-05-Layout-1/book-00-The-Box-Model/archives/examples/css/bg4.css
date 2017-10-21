@@ -1,0 +1,8 @@
+
+    #horizontalfade {
+      border:1px solid black;
+      background-color: white;
+      background-image: url(../images/hori-fade.gif);
+      background-repeat: repeat-y;
+      padding-left:12em;
+    }

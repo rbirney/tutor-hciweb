@@ -1,0 +1,6 @@
+#repeatedclouds {
+  border:1px solid black;
+  background-color: #aebbdb;
+  background-image: url(../images/clouds.jpg);
+  padding:.5em;
+}

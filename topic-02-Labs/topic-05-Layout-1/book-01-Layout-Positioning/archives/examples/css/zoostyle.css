@@ -1,0 +1,65 @@
+html, body {
+ margin:0;
+ padding:0;
+ width:100%;
+ height:100%;
+}
+
+body {
+ background:url(../images/foliage.jpg) no-repeat center top #6dba5b;
+}
+
+#wrapper {
+ margin:.75em auto;
+ padding: 0 5em;
+ background-color:white;
+ width:50em;
+ border-radius:20px;
+overflow:auto;
+}
+
+section{ 
+// display: table-cell; 
+  float:left;
+  width:28%;
+margin-right:2em;
+} 
+
+nav {
+  background-color: #e7dbcd;
+  border-radius:15px;
+  padding:1em 0; 
+}
+
+nav ul {
+  list-style-type:none;
+  padding:0;
+}
+
+nav a:link, nav a:visited {
+  text-decoration:none;
+  color:slategray;
+}
+
+nav a:hover {
+  color:black;
+}
+
+nav li {
+  margin:1em 0;
+  border-bottom:solid slategray 3px;
+  text-align:center;
+}
+
+#extra {
+  margin:5%;
+  background-color:#6dba5b;
+  color:white;
+  border-radius:15px;
+  padding:3%;
+  text-align:center;
+}
+
+dt {
+  font-weight:bold;
+}

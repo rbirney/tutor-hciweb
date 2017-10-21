@@ -1,0 +1,12 @@
+#main{
+ position:relative;
+ border:solid black 1px;
+ width:500px;
+ height:500px;
+ background-image: url(../images/bg.jpg);
+ opacity:0.3;
+}
+
+#main p {
+  color:rgba(0, 0, 0, 1);
+}

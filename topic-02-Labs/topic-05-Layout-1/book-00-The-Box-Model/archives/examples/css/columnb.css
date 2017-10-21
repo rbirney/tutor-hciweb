@@ -1,0 +1,57 @@
+body { 
+        color #000000; 
+        background-color: #ffffff; 
+}
+
+a { 
+        color: #000099; 
+        font-weight: bold; 
+        text-decoration: none; 
+}
+
+nav {
+	position: absolute;
+	right: 30px;
+        top: 50px;
+	width: 120px;
+	padding: 10px;
+	border: 2px solid #000077;
+}
+
+aside {
+	position: absolute;
+	right: 30px;
+        top: 200px;
+	width: 120px;
+	padding: 10px;
+	border: 2px solid #000077;
+
+}
+
+aside.sideLinkB {
+	position: absolute;
+	right: 30px;
+        top: 400px;
+	width: 120px;
+	padding: 10px;
+	border: 2px solid #000077;
+}
+
+section {
+	position: absolute;
+	right: 200px;
+	top: 20px;
+	left: 30px;
+	padding: 10px;
+	border: 2px solid #007700;
+}
+
+nav a, aside.sideLinkB a {
+	display: block;
+	background-color: #bbbbff;
+        margin-bottom:2px;
+}
+
+nav a:hover, aside.sideLinkB  a:hover {
+	background-color: #bbffff;
+}

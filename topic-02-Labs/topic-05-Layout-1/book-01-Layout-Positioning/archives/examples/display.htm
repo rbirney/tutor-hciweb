@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Display property</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<form>
+<fieldset style="display:inline-block;">
+  <legend><b><tt>display: block</tt></b></legend>
+  <div style="width: 60px; display: block; background-color: red; border: 3px solid black;">display: block</div>
+  <div style="width: 60px; display: block; background-color: red; border: 3px solid black;">display: block</div>
+  <div style="width: 60px; display: block; background-color: red; border: 3px solid black;">display: block</div>
+</fieldset>
+
+<fieldset style=" display:inline-block;vertical-align: top">
+  <legend><b><tt>display: inline</tt></b></legend>
+  <div style="width: 60px; display: inline; background-color: red; border: 3px solid black;">display: inline</div>
+  <div style="width: 60px; display: inline; background-color: red; border: 3px solid black;">display: inline</div>
+  <div style="width: 60px; display: inline; background-color: red; border: 3px solid black;">display: inline</div>
+</fieldset>
+
+<fieldset style="display:inline-block; vertical-align: top">
+  <legend><b><tt>display: inline-block</tt></b></legend>
+  <div style="width: 60px; display: inline-block; background-color: red; border: 3px solid black;">display: inline-block</div>
+  <div style="width: 60px; display: inline-block; background-color: red; border: 3px solid black;">display: inline-block</div>
+  <div style="width: 60px; display: inline-block; background-color: red; border: 3px solid black;">display: inline-block</div>
+</fieldset>
+</form>
+As you can see, <tt>inline-block</tt> is a hybrid that:
+<ul>
+<li>Creates a rectangular region (a block)</li>
+<li>Doesn't create any new lines (hence "in line")</li>
+</ul>
+</body>
+</html>
