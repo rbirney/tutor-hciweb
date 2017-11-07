@@ -1,0 +1,10 @@
+.relative {
+    position:relative;
+    width:100px;
+    background-color:#6E919A;
+}
+.absolute {
+    position:absolute; top:10px; bottom:20px; left:10px;
+    width:30px;
+    background-color:#9BC9D1;
+}

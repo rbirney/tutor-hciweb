@@ -1,0 +1,8 @@
+    #mydiv {
+      border:1px solid black;
+      background-image:url('../images/smiley.gif');
+      background-repeat:no-repeat;
+      background-size:100px 100px;
+      width:200px;
+      height:200px;
+    }

@@ -1,0 +1,190 @@
+/*
+CSS for BubbleUnder site
+*/
+body, html {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #e2edff;
+  line-height: 125%;
+}
+
+header {
+  border-top: 3px solid #7da5d8;
+}
+
+#container {
+  position: relative;
+  width:100%;
+  border-top: 3px solid #7da5d8;
+}
+
+nav {
+  width: 11em;
+  float:left;
+  background-color: #7da5d8;
+}
+
+section {
+  margin-left: 12em;
+  margin-right:1em;
+}
+
+p, blockquote {
+  font-size: small;
+  color: navy;
+}
+
+h1 {
+  font-size: x-large;
+  background-color: navy;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: .2em;
+  padding-left: .4em;
+  margin: 0;
+}
+
+h2 {
+  color: navy;
+  font-size: 130%;
+  font-weight: normal;
+  padding-top: .5em;
+}
+
+#tagline {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  background-color: #bed8f3;
+  border-top: 3px solid #7da5d8;
+  border-bottom: 3px solid #7da5d8;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .8em;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 10%;
+}
+
+nav li {
+  padding:.4em 0;
+}
+
+li {
+  font-size: small;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: navy;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: navy;
+}
+
+a:active {
+  color: aqua;
+  background-color: navy;
+}
+
+p a:link {
+   text-decoration:underline;
+}
+
+.fun {
+  color: #339999;
+  font-family: Georgia, Times, serif;
+  letter-spacing: 0.05em;
+}
+
+table, th, td {
+  border:solid 1px black;
+}
+
+th, td {
+  padding: .3em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-size: x-small;
+  text-align: left;
+  background: #241374;
+  color: #ffffff;
+  border-color:#000066;
+  padding: 0 .5em;
+}
+
+td {
+  font-size: small;
+}
+
+tr:nth-of-type(even){
+  background-color: #ADD8E6;
+}
+
+tr:nth-of-type(odd) {
+  background-color:#B0C4DE;
+}
+
+caption {
+  color: #000066;
+  font-size: small;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: .5em;
+}
+
+img.feature {
+  float:right;
+}
+
+img.border {
+  border: 15px solid white;
+}
+
+figure {
+  border-bottom: 1px solid navy;
+  margin-bottom: 2%;
+}
+
+figcaption {
+  color:navy;
+  font-size: 75%;
+  font-weight: bold;
+  margin-top: 0;
+  width: 70%;
+  line-height: 1.4em;
+}
+
+figcaption span {
+  font-weight: normal;
+  color: gray;
+}

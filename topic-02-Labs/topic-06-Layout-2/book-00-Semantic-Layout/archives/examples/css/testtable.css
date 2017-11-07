@@ -1,0 +1,37 @@
+#wrapper {
+  width:60%;
+  margin:1em auto;
+}
+
+header {
+  background-color: powderblue;
+  text-align:center;
+}
+
+#main {
+  border:solid lightblue 1px;
+}
+
+nav {
+  display: table-cell;
+  width: 180px;
+  background-color: #e7dbcd;
+}
+
+aside {
+  display: table-cell;
+  width: 180px;
+  padding-left: 10px;
+  border-right: 1px dotted #d7ad7b;
+}
+
+article {
+  display: table-cell;
+  width: 380px;
+  padding-left: 10px;
+}
+
+nav ul {	
+  list-style-type:none;
+  padding-left:15%;
+}

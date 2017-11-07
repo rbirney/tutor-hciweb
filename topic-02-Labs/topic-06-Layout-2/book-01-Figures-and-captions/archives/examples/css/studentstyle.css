@@ -1,0 +1,182 @@
+html, body {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+} 
+
+body {
+  background-color: #050845;
+  color: white;
+  background-image: url(../images/bg.jpg);
+  font: small Arial, Helvetica, Verdana, sans-serif;
+} 
+
+#wrapper {
+  background-color: #fdf8f2;
+  color: black;
+  width:85%;
+  margin: 3% auto;
+  padding: 1.5%;
+} 
+
+header {
+  background-image:url(../images/science.jpg);
+  background-repeat:no-repeat; 
+  height:10em;
+  background-size:100% 100%;
+}
+
+header h2 {
+  margin:0;
+  text-align:right;
+  padding:3.5em 0 1em 0;
+  color:rgba(125,125,125,.7);
+}
+
+nav {
+  margin-top:1%;
+  border-top: 1px solid #b9d2e3;
+  border-bottom: 1px solid #b9d2e3;
+}
+
+#main {
+  position: relative;
+  top: 1em;
+  left: 0;
+  width: 100%;
+  overflow:hidden;
+}
+
+section {
+  float:left;
+  width:75%;
+  border: 1px solid #b9d2e3;
+  background-color: white;
+  color: black;
+}
+
+aside {
+  float:right;
+  width: 22%;
+  background-color:#256290;
+  color: white;
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+  border-left: .1em solid #99a;
+}
+
+
+nav li {
+ font-family : Arial, Helvetica, sans-serif;
+ display : inline;
+ font-size : 1em;
+ margin-right:-.31em;
+
+}
+
+nav li a {
+ display:inline-block;
+ padding:.5em 0;
+ width:10em;
+ border-right: .1em solid #99a;
+ text-align:center;
+}
+
+nav a:link, nav a:visited {
+  color: black;
+  text-decoration:none;
+}
+
+nav a:hover {
+  background-color: #b9d2e3;
+}
+
+nav a:active {
+  background-color: #b9d2e3;
+  color:yellow;
+}
+
+#tagline {
+  margin:.5em 0;
+  font-weight: bold;
+  color: black;
+  font-size:105%;
+}
+
+section .inner {
+  margin: 1%;
+}
+
+section .inner h2 {
+  color: #245185;
+  border-bottom: 1px solid #b9d2e3;
+  font-size: 150%;
+}
+
+section .inner ul.features {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+section .inner h3 {
+  font-size: 105%;
+}
+
+section .inner h3 a:link, section .inner h3 a:visited {
+  color: #245185;
+}
+
+section .inner h3 a:hover, aside ul a:hover {
+  text-decoration:none;
+}
+
+section .inner p {
+  color: #666666;
+  font-size: 90%;
+  margin-left:5%;
+}
+
+section .inner .features li img {
+  float: left;
+  margin: 0 1% 0 0;
+}
+
+section .inner p.author {
+  font-weight:  bold;
+}
+
+aside h3 {
+  font-size: 110%;
+  background-image: url(../images/sidebar-header-bg.jpg);
+  background-repeat: no-repeat;
+  padding: 0.2em 0em 0.2em 0.5em;
+  font-weight: normal;
+}
+
+aside .inner {
+  padding: 3%;
+}
+
+aside ul {
+  list-style-image: url(../images/more-bullet.gif);
+  padding-left:1.5em;
+  margin:0;
+}
+
+aside  li {
+  font-size: 90%;
+  line-height: 1.4em;
+}
+
+aside ul a:link, aside ul a:visited {
+  color: white;
+}
+
+aside  .date {
+  font-weight: bold;
+}

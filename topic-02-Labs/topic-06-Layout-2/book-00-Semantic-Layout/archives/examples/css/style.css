@@ -1,0 +1,21 @@
+#main{
+position:relative;
+top:20%;
+left:20%;
+border:solid black 1px;
+width:500px;
+height:500px;
+}
+div#first{
+background-image: url(../images/bg.jpg);
+opacity:0.2;
+width:500px;
+height:500px;
+}
+div#second{
+width:500px;
+height:500px;
+position:absolute;
+top:10px;
+left:10px;
+}
