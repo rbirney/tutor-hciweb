@@ -1,0 +1,56 @@
+body {
+  background-color:lightblue;
+}
+
+ .table{
+  width: 600px; 
+  margin:2em auto;
+} 
+
+.table-responsive {
+     display: table;   
+}
+
+.table td, .table th {
+    border: none;
+}
+
+.table th{
+  text-align: right;
+}
+
+.table th.diff {
+text-align:left;
+}
+
+.table.table-striped tbody tr:nth-of-type(even) {
+   background-color:#d6e0f5;
+}
+
+.table.table-striped tbody tr:nth-of-type(odd) {
+   background-color: #E6E6FA;
+}
+
+.table.table-striped tbody tr:hover {
+   background-color:#ccccff;
+   cursor:pointer;
+}
+
+td:nth-child(n+2){
+  text-align: right;
+}
+tr:last-child{
+  font-weight: bolder;
+}
+
+td:last-child{
+  font-weight: bolder;
+}
+tr:last-child td:last-child{
+  font-size:24px;
+}
+
+
+
+
+

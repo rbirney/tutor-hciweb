@@ -1,0 +1,109 @@
+body{
+  background-color: #050845;
+  color: black;
+}
+
+.container {
+  background-color: #fdf8f2;
+  margin-top:5%;
+  padding:1.5em;
+}
+
+
+header {
+  background-color:#256290;
+  padding:1.2em 0;
+}
+
+#main {
+  margin-top:.5em;
+}
+
+nav{
+   padding:1em 0;
+}
+
+nav li {
+  font-family : Arial, Helvetica, sans-serif;
+  margin:0 1em 0 0;
+}
+
+h1, h2{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #666666;
+  font-weight:bold;
+}
+
+h1{
+  font-size: 2.2em;
+  color:white;
+}
+
+
+h2{
+  font-size: 1.8em;
+}
+
+p{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+a {
+  outline:0;
+}
+
+a:link {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: blue;
+}
+
+.nav-pills li.nav-item a:link, .nav-pills li.nav-item a:visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight:bold;
+}
+
+.nav-pills li.nav-item a.active{
+    background-color:#256290;
+    color:white;
+ }
+
+.nav-pills li.nav-item a:hover,.nav-pills li.nav-item a.active:hover{
+    background-color:#9FB6CD;
+    color:white;
+}
+
+p a:link {
+  text-decoration: underline;
+  color: navy;
+}
+
+p a:visited {
+  text-decoration: underline;
+  color:purple;
+}
+
+p a:hover {
+  text-decoration:none;
+  background-color:#256290;
+  color:white;
+}
+
+img { 
+  float:left;
+  margin-right:1em;
+}
+
+p.news {
+  font-style:italic;
+}
+
+

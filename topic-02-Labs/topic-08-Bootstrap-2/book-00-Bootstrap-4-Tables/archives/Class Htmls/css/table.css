@@ -1,0 +1,39 @@
+ .table{
+  width: 600px; 
+  margin:2em auto;
+} 
+
+.table td, .table th {
+    border: none;
+}
+
+.table-responsive {
+     display: table;   
+}
+
+.table th{
+  text-align: right;
+}
+
+.table th.diff {
+text-align:left;
+}
+
+td:nth-child(n+2){
+  text-align: right;
+}
+tr:last-child{
+  font-weight: bolder;
+}
+
+td:last-child{
+  font-weight: bolder;
+}
+tr:last-child td:last-child{
+  font-size:24px;
+}
+
+
+
+
+

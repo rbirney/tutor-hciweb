@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Column Wrapping Example</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link  href="css/complete.css" rel="stylesheet">
+    <style>
+    div > div > div {
+      border:solid 1px black;
+      padding:5%;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+   <div class="col-md-6">.col-md-6</div>
+   <div class="col-md-6">.col-md-6</div>
+   <div class="col-md">.col-md, This column will move to the next line and take up the full column.</div>
+</div>
+</div>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
