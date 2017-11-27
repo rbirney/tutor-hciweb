@@ -1,0 +1,27 @@
+body{
+  background-color: #050845;
+  color: black;
+}
+
+.container {
+  background-color: #fdf8f2;
+  margin: 3% auto;
+  padding:1%;
+}
+
+legend {   
+  font-weight: bold;   
+  font-size: medium;   
+  color: navy;  
+  border-bottom: 2px solid navy;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: none;
+}
+

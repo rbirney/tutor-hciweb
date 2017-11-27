@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form Example</title>
+</head>
+<body>
+<h1>Form Fieldset and Legend Example</h1>
+<form name = "test" id="test">
+<input id="number_input" type="range" value="0" min="0" max="100" list="number"><output for="number_input">0</output>
+
+<datalist id="number">
+  <option>10</option>
+  <option>15</option>
+  <option>30</option>
+  <option>50</option>
+  <option>90</option>
+</datalist>
+</form>
+        <script>
+              document.querySelector('#number_input').onchange = function(e) {
+                e.target.nextElementSibling.innerHTML = e.target.value;
+              }
+        </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Form Example</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet">
+<style>
+   input[type="text"]:valid, input[type="email"]:valid, input[type="password"]:valid, input[type="url"]:valid{
+    color: green;
+   }
+
+  /* Unmatched */
+   input[type="text"]:invalid, input[type="email"]:invalid, input[type="password"]:invalid, input[type="url"]:invalid{
+     color: red;
+     border-color:red;
+   }
+</style>
+</head>
+<body>
+<section class = "container">
+  <h1>T & E Project Form</h1>
+
+<form action="process.html" method="post" id ="MyForm" name = "MyForm" role="form" class="form-horizontal">
+
+      <fieldset>
+        <legend>Project Information</legend>
+         <div class ="form-group row">
+          <label for="name" class="col-sm-2 control-form-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="name"  id="name" required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)?" autofocus title="Please enter a name (Surname optional) with First Letter capitalised">
+          </div>
+        </div>
+         <div class ="form-group row">
+            <label for="priority" class="col-sm-2 control-form-label">Priority</label>
+          <div class="col-sm-10">
+            <input type="range" class="form-control" min="0" max="10" name="priority" value="0" id="priority">
+          </div>
+        </div>
+
+         <div class ="form-group row">
+            <label for="estimated_hours" class="col-sm-2 control-form-label">Estimated Hours</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" name="estimated_hours" min = "2" max = "12" step = "2" id="estimated_hours">
+          </div>
+        </div>
+         <div class ="form-group row">
+             <label for="password" class="col-sm-2 control-form-label">Password</label>
+          <div class="col-sm-10">
+        	<input type="password" class="form-control" name="password" id="password" required pattern ="\S{6,}" id="password" title="Please enter a password (at least 6 characters)">
+          </div>
+        </div>
+
+         <div class ="form-group row">
+            <label for="start_date" class="col-sm-2 control-form-label">Start Date</label>
+          <div class="col-sm-10">
+            <input type="date" class="form-control" name="start_date" id="start_date" value="2015-01-01">
+          </div>
+        </div>
+
+         <div class ="form-group row">
+            <label for="email" class="col-sm-2 control-form-label">Email contact</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" name="email"  id="email" required pattern = "[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})" title="Please enter a valid email">
+          </div>
+        </div>
+
+         <div class ="form-group row">
+            <label for="url" class="col-sm-2 control-form-label">Staging URL</label>
+          <div class="col-sm-10">
+            <input type="url" class="form-control" name="url"  id="url" required pattern="https?://[a-zA-Z]{3}\.[a-zA-Z0-9]{2,}\.[a-zA-Z0-9]{2,}" placeholder = "http://www.example.com" title="Please enter a valid URL">
+          </div>
+        </div>
+
+         <div class ="form-group row">
+            <label for="project_color" class="col-sm-2 control-form-label">Project color</label>
+          <div class="col-sm-10">
+            <input type="color" class="form-control" name="project_color" id="project_color">
+          </div>
+        </div>
+
+         <div class ="form-group row">
+            <label for="acctnumber" class="col-sm-2 control-form-label">Account Number</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="acctnumber" id="acctnumber" required pattern="^[1-9]+[0-9]*$" title="Please enter an account number where first digit is between 1 and 9 (inclusive)">
+          </div>
+        </div>
+
+  <div class="form-group row justify-content-end">
+    <div class="col-sm-10">
+    		<input type="submit" class="btn btn-info" value="Submit" name = "Submit">
+    		<input type="reset" class="btn btn-info" value="Clear the Info" >
+	</div>
+	</div>
+
+      </fieldset>
+    </form>
+</section>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

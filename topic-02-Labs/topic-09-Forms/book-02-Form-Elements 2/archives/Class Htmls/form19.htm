@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form Example</title>
+</head>
+<body>
+<h1>Form Submit and Reset Button Example</h1>
+<form name = "tutorial" id = "tutorial" action="processform.htm" onreset="document.tutorial.name.focus();">
+<label for  = "name">Enter your name:</label>
+<input type="text" name="name" id = "name" size="20">
+<p>
+<label for  = "email2">Enter your e-mail address:</label>
+<input type="email" name="email2" id = "email2" size="30">
+</p>
+<p>
+<br><input style="float:left" type="radio" name="action" id = "subscribe" value="subscribe">
+<label for = "subscribe" style="float:left"> Subscribe</label>
+<br><input style="clear:left; float:left" type="radio" name="action" id = "unsubscribe" value="unsubscribe" checked="checked">
+<label for = "unsubscribe" style="float:left"> Unsubscribe</label>
+
+</p>
+<p>
+<br>
+<input style="clear:left" type="submit">
+
+<input type="reset" value = "Start Over">
+</form>
+
+</body>
+</html>
